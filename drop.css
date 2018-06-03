@@ -1,0 +1,43 @@
+
+
+body{
+
+    background: rgb(85, 83, 83);
+}
+
+
+
+.fill{
+    background-image:linear-gradient(red,yellow);
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: dragged;
+}
+
+.empty{
+    
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin:10px;
+    border:solid 3px rgb(184, 6, 6);
+    background-color: whitesmoke;
+
+}
+
+.hold{
+    border: solid white 4px;
+}
+
+.hovered{
+    background:white;
+    border-style: dashed;
+
+}
+
+.invisible{
+    display: none;
+}
